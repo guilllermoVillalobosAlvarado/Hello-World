@@ -1,4 +1,4 @@
-<div data-role="page" id="sub{{ page.title | downcase }}">
+<div data-role="page" id="sub{{ page.title | downcase | url_encode }}">
 
   {% include components/header.liquid
      title=page.subpage.title

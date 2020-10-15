@@ -1,4 +1,4 @@
-<div data-role="page" id="{{ page.title | downcase }}">
+<div data-role="page" id="{{ page.title | downcase | url_encode }}">
 
   {% include components/panel.liquid %}
   {% include components/header.liquid 
