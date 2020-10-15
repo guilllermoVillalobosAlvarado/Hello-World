@@ -1,11 +1,9 @@
 <div data-role="page" id="sub{{ page.title | downcase }}">
 
-  <div data-role="header">
-    <a href="#{{ page.title | downcase }}" data-direction="reverse" class="ui-btn">
-      <
-    </a>
-    <h1>{{ page.subpage.title }}</h1>
-  </div>
+  {% include components/header.liquid
+     title=page.subpage.title
+     parent=page.title
+  %}
 
   <div role="main" class="ui-content">
     <p>{{ page.subpage.body }}</p>

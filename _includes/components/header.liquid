@@ -1,0 +1,13 @@
+<div data-role="header">
+  {%unless page.pages %}
+    <a href="#{{ include.parent | downcase }}" data-direction="reverse" class="ui-btn">
+      <
+    </a>
+  {% endunless %}
+
+  <h1>{{ include.title }}</h1>
+
+  {% if page.panel and include.parent == "menu" %}
+    {% include components/panel/trigger.liquid %}
+  {% endif %}
+</div>

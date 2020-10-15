@@ -1,11 +1,10 @@
 <div data-role="page" id="menu">
 
-  <div data-role="header">
-    <h1>{{ site.title }}</h1>
-  </div>
+  {% include components/header.liquid title=site.title %}
 
   <div role="main" class="ui-content">
     <p>{{ site.description }}</p>
+
     {% for page in page.pages %}
       <a href="#{{ page.title | downcase }}" class="ui-btn">{{ page.title }}</a>
     {% endfor %}

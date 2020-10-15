@@ -1,18 +1,10 @@
 <div data-role="page" id="{{ page.title | downcase }}">
 
-  {% include components/panel.liquid %}
-
-  <div data-role="header">
-    <a href="#menu" data-direction="reverse" class="ui-btn">
-      <
-    </a>
-    <h1>{{ page.title }}</h1>
-    {% if page.panel %}
-      <a href="#{{ page.title | downcase }}-panel" class="ui-btn">
-        +
-      </a>
-    {% endif %}
-  </div>
+  {% include components/panel/panel.liquid %}
+  {% include components/header.liquid 
+     title=page.title
+     parent="menu"
+  %}
 
   <div role="main" class="ui-content">
     <p>{{ page.body }}</p>
