@@ -1,0 +1,32 @@
+<div data-role="page" id="{{ page.title | downcase }}">
+
+  {% include components/panel.liquid %}
+
+  <div data-role="header">
+    <a href="#menu" data-direction="reverse" class="ui-btn">
+      <
+    </a>
+    <h1>{{ page.title }}</h1>
+    {% if page.panel %}
+      <a href="#{{ page.title | downcase }}-panel" class="ui-btn">
+        +
+      </a>
+    {% endif %}
+  </div>
+
+  <div role="main" class="ui-content">
+    <p>{{ page.body }}</p>
+    {% if page.subpage %}
+      <a href="#subgallery" class="ui-btn">
+        {{ page.subpage.title }}
+      </a>
+    {% endif %}
+  </div>
+
+  {% include components/footer.liquid %}
+
+</div>
+
+{% if page.subpage %}
+  {% include components/subpage.liquid %}
+{% endif %}

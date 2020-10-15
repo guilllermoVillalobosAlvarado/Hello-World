@@ -3,11 +3,13 @@
   <head>
     {% include head.html %}
   </head>
-  <<body>
-    {% include pages/1-menu.html %}
-    {% include pages/2-gallery.html %}
-    {% include pages/3-contact.html %}
-    {% include pages/4-upload.html %}
-    {% include pages/5-settings.html %}
+  <body>
+
+    {% include components/menu.liquid %}
+
+    {% for page in page.pages %}
+      {% include components/page.liquid %}
+    {% endfor %}
+
   </body>
 </html>
