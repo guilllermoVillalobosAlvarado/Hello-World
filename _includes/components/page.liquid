@@ -1,6 +1,6 @@
 <div data-role="page" id="{{ page.title | downcase }}">
 
-  {% include components/panel/panel.liquid %}
+  {% include components/panel.liquid %}
   {% include components/header.liquid 
      title=page.title
      parent="menu"
@@ -8,10 +8,9 @@
 
   <div role="main" class="ui-content">
     <p>{{ page.body }}</p>
+
     {% if page.subpage %}
-      <a href="#subgallery" class="ui-btn">
-        {{ page.subpage.title }}
-      </a>
+      {% include components/buttons/subpage.liquid %}
     {% endif %}
   </div>
 

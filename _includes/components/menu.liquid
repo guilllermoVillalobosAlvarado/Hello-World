@@ -6,7 +6,7 @@
     <p>{{ site.description }}</p>
 
     {% for page in page.pages %}
-      <a href="#{{ page.title | downcase }}" class="ui-btn">{{ page.title }}</a>
+      {% include components/buttons/nav-item.liquid %}
     {% endfor %}
   </div>
 
