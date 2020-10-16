@@ -1,12 +1,13 @@
-<div data-role="page" id="sub{{ page.title | downcase | url_encode }}">
+<div data-role="page" id="sub{{ page | downcase | url_encode }}">
+  {% assign title = site.data.pages[page].subpage.title %}
 
   {% include components/header.liquid
-     title=page.subpage.title
-     parent=page.title
+     title=title
+     parent=page
   %}
 
   <div role="main" class="ui-content">
-    <p>{{ page.subpage.body }}</p>
+    <p>{{ site.data.pages[page].subpage.body }}</p>
   </div>
 
   {% include components/footer.liquid %}

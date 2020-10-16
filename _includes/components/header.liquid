@@ -5,7 +5,7 @@
 
   <h1>{{ include.title }}</h1>
 
-  {% if page.panel and include.parent == "menu" %}
+  {% if site.data.pages[page].panel and include.parent == "menu" %}
     {% include components/buttons/panel.liquid %}
   {% endif %}
 </div>

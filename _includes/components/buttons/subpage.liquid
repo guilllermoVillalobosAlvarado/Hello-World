@@ -1,3 +1,3 @@
-<a href="#sub{{ page.title | downcase | url_encode }}" class="ui-btn">
-  {{ page.subpage.title }}
+<a href="#sub{{ page | downcase | url_encode }}" class="ui-btn">
+  {{ site.data.pages[page].subpage.title }}
 </a>
