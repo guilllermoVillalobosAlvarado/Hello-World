@@ -9,5 +9,6 @@ bundle install
 To start server:
 
 ```
+cd projects/pages/Hello-World/
 rake
 ```
