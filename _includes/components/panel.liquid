@@ -1,3 +1,3 @@
-<div data-role="panel" data-position="right" id="{{ page.title | downcase }}-panel">
-  <p>{{ page.panel }}</p>
+<div data-role="panel" data-position="right" id="{{ page | downcase | url_encode }}-panel">
+  <p>{{ site.data.pages[page].panel }}</p>
 </div>

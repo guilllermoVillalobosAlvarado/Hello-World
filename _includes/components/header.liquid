@@ -1,0 +1,11 @@
+<div data-role="header">
+  {%unless page.pages %}
+    {% include components/buttons/parent.liquid %}
+  {% endunless %}
+
+  <h1>{{ include.title }}</h1>
+
+  {% if site.data.pages[page].panel and include.parent == "menu" %}
+    {% include components/buttons/panel.liquid %}
+  {% endif %}
+</div>

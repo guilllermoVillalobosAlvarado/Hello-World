@@ -1,25 +1,17 @@
-<div data-role="page" id="{{ page.title | downcase }}">
+<div data-role="page" id="{{ page | downcase | url_encode }}">
+  {% assign title = site.data.pages[page].title %}
 
   {% include components/panel.liquid %}
-
-  <div data-role="header">
-    <a href="#menu" data-direction="reverse" class="ui-btn">
-      <
-    </a>
-    <h1>{{ page.title }}</h1>
-    {% if page.panel %}
-      <a href="#{{ page.title | downcase }}-panel" class="ui-btn">
-        +
-      </a>
-    {% endif %}
-  </div>
+  {% include components/header.liquid 
+     title=title
+     parent="menu"
+  %}
 
   <div role="main" class="ui-content">
-    <p>{{ page.body }}</p>
-    {% if page.subpage %}
-      <a href="#subgallery" class="ui-btn">
-        {{ page.subpage.title }}
-      </a>
+    <p>{{ site.data.pages[page].body }}</p>
+
+    {% if site.data.pages[page].subpage %}
+      {% include components/buttons/subpage.liquid %}
     {% endif %}
   </div>
 
@@ -27,6 +19,6 @@
 
 </div>
 
-{% if page.subpage %}
+{% if site.data.pages[page].subpage %}
   {% include components/subpage.liquid %}
 {% endif %}

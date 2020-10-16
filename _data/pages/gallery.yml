@@ -1,0 +1,19 @@
+title: Gallery
+body: |
+  <img src="https://via.placeholder.com/500x150?text=LOGO" class="d-block mx-auto mb-3"/>
+  <p>I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.</p>
+panel: |
+  I am the gallery panel!
+  <img src="https://via.placeholder.com/230x500?text=Image 1" class="d-block mx-auto my-3"/>
+subpage:
+  title: Sub Gallery
+  body: |
+    <h3>This is some  image</h3>
+    <p>I'm the gallery subpage. I'm just shown if a link that references my id is beeing clicked.</p>
+    <img src="https://via.placeholder.com/500x150?text=Image 1" class="d-block mx-auto mb-3"/>
+    <h3>This is other image</h3>
+    <p>I'm the gallery subpage. I'm just shown if a link that references my id is beeing clicked.</p>
+    <img src="https://via.placeholder.com/200x150?text=Image 2" class="d-block mx-auto mb-3"/>
+    <h3>Yet another image</h3>
+    <p>I'm the gallery subpage. I'm just shown if a link that references my id is beeing clicked.</p>
+    <img src="https://via.placeholder.com/250x250?text=Image 3" class="d-block mx-auto mb-3"/>
