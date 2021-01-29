@@ -16,18 +16,18 @@ body: |
 
 
 panel: |
-  <p><b>=====( SWAP BOTON )=====</b></p>
   <p><b>BOTON DIGITAL</b></p>
   <p><i>Operación tradicional, requiere</i></p>
-  <p><i>la activación mecanica para</i></p>
-  <p><i>introducir un dígito</i></p>
+  <p><i>la activación mecánica para</i></p>
+  <p><i>introducir un dígito.</i></p>
+  <hr color=red>
   <br><br>
   <p><b>BOTON TOUCH</b></p>
-  <p><i>Operación sin acción mecanica,</i></p>
-  <p><i>para teclear un digito solo</i></p>
-  <p><i>el botón como su smart phone</i></p>
+  <p><i>Para teclear un dígito tóque</i></p>
+  <p><i>el botón como su smart phone.</i></p>
+  <hr color=red>
 subpage:
-  title: AYUDA EXTENDIDA
+  title: RECOMENDACIONES
   body: |
     <h5 align="center">TAKTUS Pro <b>TOUCH</b></h5>
     <img src="https://via.placeholder.com/260x40?text=Image 1" class="d-block mx-auto mb-3"/>
