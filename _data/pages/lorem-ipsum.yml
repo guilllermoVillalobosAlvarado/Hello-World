@@ -1,16 +1,17 @@
 title: SWAP BOTON
 body: |
-  <img src="https://via.placeholder.com/460x80?text=LOGO" class="d-block mx-auto mb-3"/>
+  <img src="https://via.placeholder.com/260x40?text=TAKTUS Pro" class="d-block mx-auto mb-3"/>
 
   <hr color=red>
-  <p><b>==============( INTERCAMBIAR BOTON )==============</b>
-  <p><b>1. ABRA SWITCH DE IGNICION.</b></p>
-  <p><b>2. TECLEE SU CODIGO.</b></p>
-  <p><b>3. ATENCION + Pausa + digite: 5 + Pausa + Enter.</b></p>
-  <p><b>4. Observar destellos verdes.</b></p>
-  <hr height=800 color=red>
-  <p><b>DESTELLOS BLANCOS</b>. Boton en modo: TOUCH
-  <p><b>DESTELLOS VERDES</b>.  Boton en modo: DIGITAL
+  <p><b>======( INTERCAMBIAR BOTON )=======</b>
+  <h6>1. ABRA SWITCH DE IGNICION.</h6>
+  <h6>2. TECLEE SU CODIGO.</h6>
+  <h6>3. ATENCION + Pausa + digite: 5 + Pausa + Enter.</h6>
+  <h6>4. Observar destellos verdes.</h6>
+  <hr color=red>
+  <br>
+  <h6><b>DESTELLOS BLANCOS</b>: Boton en modo TOUCH</h6>
+  <h6><b>DESTELLOS VERDES</b>:  Boton en modo DIGITAL</h6>
 
 
 
@@ -20,7 +21,7 @@ panel: |
   <p><i>Operación tradicional, requiere</i></p>
   <p><i>la activación mecanica para</i></p>
   <p><i>introducir un dígito</i></p>
-  <p>.</p>
+  <br><br>
   <p><b>BOTON TOUCH</b></p>
   <p><i>Operación sin acción mecanica,</i></p>
   <p><i>para teclear un digito solo</i></p>
@@ -29,12 +30,11 @@ subpage:
   title: AYUDA EXTENDIDA
   body: |
     <h5 align="center">TAKTUS Pro <b>TOUCH</b></h5>
-    <img src="https://via.placeholder.com/460x80?text=Image 1" class="d-block mx-auto mb-3"/>
+    <img src="https://via.placeholder.com/260x40?text=Image 1" class="d-block mx-auto mb-3"/>
     <p>Le permite teclear en modo touch, para que sea una operación <b>silenciosa</b> cuando selecciona el modo touch</p>
 
     <p><b><EN MODO TOUCH:</b> Al abrir el switch de ignición se muestra luz blanca.  El estado de valet se muestra con destellos blancos</p>
-    <p>.</p>
-    <p>.</p>
+    <br><br>
     <h5 align="center">TAKTUS Pro <b>DIGITAL</b></h5>
-    <img src="https://via.placeholder.com/460x80?text=Image 1" class="d-block mx-auto mb-3"/>
+    <img src="https://via.placeholder.com/260x40?text=Image 1" class="d-block mx-auto mb-3"/>
     <p><b>EN MODO DIGITAL:</b> Al abrir el switch de ignición se muestra luz ambar.  El estado de valet se muestra con destellos verdes</p>
