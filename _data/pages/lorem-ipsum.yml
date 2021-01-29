@@ -1,12 +1,14 @@
 title: SWAP BOTON
 body: |
-  <img src="https://via.placeholder.com/500x150?text=LOGO" class="d-block mx-auto mb-3"/>
-  <p><b>===============( INTERCAMBIAR BOTON )===============</b>
+  <img src="https://via.placeholder.com/460x80?text=LOGO" class="d-block mx-auto mb-3"/>
+
+  <hr color=red>
+  <p><b>==============( INTERCAMBIAR BOTON )==============</b>
   <p><b>1. ABRA SWITCH DE IGNICION.</b></p>
   <p><b>2. TECLEE SU CODIGO.</b></p>
   <p><b>3. ATENCION + Pausa + digite: 5 + Pausa + Enter.</b></p>
   <p><b>4. Observar destellos verdes.</b></p>
-  <p>====================================================</p>
+  <hr height=800 color=red>
   <p><b>DESTELLOS BLANCOS</b>. Boton en modo: TOUCH
   <p><b>DESTELLOS VERDES</b>.  Boton en modo: DIGITAL
 
@@ -26,13 +28,13 @@ panel: |
 subpage:
   title: AYUDA EXTENDIDA
   body: |
-    <p>TAKTUS Pro <b>TOUCH</b>.</p>
-    <img src="https://via.placeholder.com/500x150?text=Image 1" class="d-block mx-auto mb-3"/>
+    <h5 align="center">TAKTUS Pro <b>TOUCH</b></h5>
+    <img src="https://via.placeholder.com/460x80?text=Image 1" class="d-block mx-auto mb-3"/>
     <p>Le permite teclear en modo touch, para que sea una operación <b>silenciosa</b> cuando selecciona el modo touch</p>
 
-    <p><b>EN MODO TOUCH:</b> Al abrir el switch de ignición se muestra luz blanca.  El estado de valet se muestra con destellos blancos</p>
+    <p><b><EN MODO TOUCH:</b> Al abrir el switch de ignición se muestra luz blanca.  El estado de valet se muestra con destellos blancos</p>
     <p>.</p>
     <p>.</p>
-    <p>TAKTUS Pro <b>DIGITAL</b>.</p>
-    <img src="https://via.placeholder.com/500x150?text=Image 1" class="d-block mx-auto mb-3"/>
+    <h5 align="center">TAKTUS Pro <b>DIGITAL</b></h5>
+    <img src="https://via.placeholder.com/460x80?text=Image 1" class="d-block mx-auto mb-3"/>
     <p><b>EN MODO DIGITAL:</b> Al abrir el switch de ignición se muestra luz ambar.  El estado de valet se muestra con destellos verdes</p>

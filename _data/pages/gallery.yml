@@ -1,19 +1,42 @@
-title: Gallery
+title: REGLAS DE OPERACION
 body: |
-  <img src="https://via.placeholder.com/500x150?text=LOGO" class="d-block mx-auto mb-3"/>
-  <p>I'm the second ............... in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.</p>
+
+
+
+   <HR>
+    <img src="https://via.placeholder.com/460x80?text=LOGO" class="d-block mx-auto mb-3"/>
+    <h4 align="center"><font color="#2F4F4F"><I>TAKTUS Pro</I></font></h4>
+
+    <img src="https://via.placeholder.com/460x80?text=Image 1" class="d-block mx-auto mb-3"/>
+   <HR>
+   <hr color=red>
+    <p style="color:DarkGray;font-size:18px;text-align:center;">=====( DIGITO )=====</p>
+    <p><i>Teclee rápidamentge y conitnuamente. (Sin pausas intermedias).</i></p>
+   <HR>
+   <hr color=red>
+    <p style="color:DarkGray;font-size:18px;text-align:center;">=====( PAUSA )=====</p>
+    <p><i>Espere sin teclear un segundo mínimo.</i></p>
+   <HR>
+   <hr color=red>
+    <p style="color:DarkGray;font-size:18px;text-align:center;">=====( ATENCION )=====</p>
+    <p><i>Presione el botón y suelte en cuanto la luz ambar encienda.</i></p>
+   <HR>
+   <hr color=red>
+
+
 panel: |
-  I am the gallery panel!
-  <img src="https://via.placeholder.com/230x500?text=Image 1" class="d-block mx-auto my-3"/>
+    I am the gallery panel!
+    <img src="https://via.placeholder.com/460x80?text=Image 1" class="d-block mx-auto my-3"/>
 subpage:
-  title: Sub Gallery
-  body: |
-    <h3>This is some  image</h3>
-    <p>I'm the gallery subpage. I'm just shown if a link that references my id is beeing clicked.</p>
-    <img src="https://via.placeholder.com/500x150?text=Image 1" class="d-block mx-auto mb-3"/>
-    <h3>This is other image</h3>
-    <p>I'm the gallery subpage. I'm just shown if a link that references my id is beeing clicked.</p>
-    <img src="https://via.placeholder.com/200x150?text=Image 2" class="d-block mx-auto mb-3"/>
-    <h3>Yet another image</h3>
-    <p>I'm the gallery subpage. I'm just shown if a link that references my id is beeing clicked.</p>
-    <img src="https://via.placeholder.com/250x250?text=Image 3" class="d-block mx-auto mb-3"/>
+  title: Ayuda Extendida
+  body : |
+
+
+    <h4 align="center"><font color="#2F4F4F"><I>TAKTUS Pro</I></font></h4>
+
+    <img src="https://via.placeholder.com/460x80?text=Image 1" class="d-block mx-auto mb-3"/>
+    <p style="color:DarkGray;font-size:18px;text-align:center;"><b>=====( DIGITO )=====</b></p>
+    <p><i>No deberá hacer pausas entre pulsaciones, deberá telear de manera agrupada.</i></p>
+
+    <p style="color:DarkGray;font-size:18px;text-align:center;"><b>=====( PAUSA )=====</b></p>
+    <p><i>Si la pausa es omitida, el sistema lo sumará al digito anterior y no contestará, cierre el switch de ignición e intente nuevamente.</i></p>
